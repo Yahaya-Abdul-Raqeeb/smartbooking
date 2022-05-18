@@ -7,7 +7,7 @@ function Navbar() {
     
 
      <nav>
-     <h3>Sites</h3>
+     <h1>SMARTBOOKING</h1>
   <ul>
 <li><Link to="/">Home</Link></li>
 <li><Link to="/addsites">Add Sites</Link></li>

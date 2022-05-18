@@ -2,10 +2,10 @@ import React from 'react'
 import image from "../images.jpeg"
 import plane from "../plane.jpg"
 import hills from "../hills.jpg"
-import uber from "../uber.jpg"
+import movin from "../movin.jpg"
 import oa from "../oa.jpg"
 import stc from "../stc.jpg"
-import neeba from "../neeba.jpg"
+import empire from "../empire.jpg"
 
 function Home() {
   return (
@@ -35,7 +35,7 @@ function Home() {
         <div className="card">
           <img src={plane} alt="no plane" />
           <div className="textGroup">
-            <h1> Danwaanaa Travel And Tour</h1>
+            <h1> V.I.P </h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
@@ -65,9 +65,9 @@ function Home() {
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://royalcosyhills.com/">
                 {" "}
-                Link: https://stcticketing.gov.gh/{" "}
+                Link: https://royalcosyhills.com/{" "}
               </a>
             </h4>
             <p>
@@ -122,18 +122,19 @@ function Home() {
         </div>
 
         <div className="card">
-          <img src={neeba} alt="no hotels" />
+          <img src={empire} alt="no image" />
           <div className="textGroup">
-            <h1>Neeba's Palace </h1>
+            <h1>Nuoyong Empire Hotel </h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://www.findmeahotelroom.com/hotels/upper-west-region/nili/nuoyong-empire-hotel">
                 {" "}
-                Link: https://stcticketing.gov.gh/{" "}
+                Link:
+                https://www.findmeahotelroom.com/hotels/upper-west-region/nili/nuoyong-empire-hotel{" "}
               </a>
             </h4>
             <p>
@@ -166,18 +167,19 @@ function Home() {
         </div>
 
         <div className="card">
-          <img src={uber} alt="no buses" />
+          <img src={movin} alt="no image" />
           <div className="textGroup">
-            <h1>FlexUber Service </h1>
+            <h1> MoevenPick Ambassador Hotel</h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://www.movenpick.com/en/africa/ghana/accra/moevenpick-ambassador-hotel-accra.html">
                 {" "}
-                Link: https://stcticketing.gov.gh/{" "}
+                Link:
+                https://www.movenpick.com/en/africa/ghana/accra/moevenpick-ambassador-hotel-accra.html{" "}
               </a>
             </h4>
             <p>
