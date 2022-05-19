@@ -49,10 +49,10 @@ img{
   margin: 5px;
 }  
 main {
-  height: 25vh;
-  background-color: lightcoral;
+  height: 21vh;
+  background-color: teal;
   display: flex;
-  grid-gap: 20px;
+   flex-wrap: wrap ;
 }
 .myending{
   display: flex;
@@ -61,4 +61,33 @@ main {
 .container img{
   height: 35vh;
   width: 40vh;
+}
+form{
+  display: grid;
+  height: 700px;
+  background-color: gray;
+  padding-left: 80vh ;
+  padding-top: 20vh;
+}
+input{
+  height: 4ch;
+  width: 30vh;
+  border-radius: 1vh;
+  margin: 10px;
+display: grid;
+}
+button {
+  width: 10ch;
+  height: 4ch;
+border-radius: 1vh;
+box-sizing: content-box;  
+}
+bitch{
+  padding-left: 10ch;
+}
+.forms{
+  height: 800px;
+  background-color: gray;
+  padding-left: 80vh;
+  padding-top: 20vh;
 }

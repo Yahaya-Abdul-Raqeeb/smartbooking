@@ -9,7 +9,7 @@ function Navbar() {
      <nav>
      <h1>SMARTBOOKING</h1>
   <ul>
-<li><Link to="/">Home</Link></li>
+<li><Link to="/home">Home</Link></li>
 <li><Link to="/addsites">Add Sites</Link></li>
 <li> <Link to="/contact">Contact</Link></li>
 

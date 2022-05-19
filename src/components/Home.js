@@ -6,6 +6,7 @@ import movin from "../movin.jpg"
 import oa from "../oa.jpg"
 import stc from "../stc.jpg"
 import empire from "../empire.jpg"
+import {AuthContext} from "../context/auth.Context"
 
 function Home() {
   return (
@@ -83,7 +84,7 @@ function Home() {
             <h1>O.A Travel And Tour</h1>
             <h4>
               {" "}
-              <a href="0520847899"> Contact: 0520847899 </a>
+              <a href="0302236917"> Contact: 0302236917 </a>
             </h4>
             <h4>
               {" "}
@@ -131,10 +132,9 @@ function Home() {
             </h4>
             <h4>
               {" "}
-              <a href="https://www.findmeahotelroom.com/hotels/upper-west-region/nili/nuoyong-empire-hotel">
+              <a href=" https://www.findmeahotelroom.com/hotels/upper-west-region/nili/nuoyong-empire-hotel">
                 {" "}
-                Link:
-                https://www.findmeahotelroom.com/hotels/upper-west-region/nili/nuoyong-empire-hotel{" "}
+                Link:shorturl.at/buyW5{" "}
               </a>
             </h4>
             <p>
@@ -178,8 +178,7 @@ function Home() {
               {" "}
               <a href="https://www.movenpick.com/en/africa/ghana/accra/moevenpick-ambassador-hotel-accra.html">
                 {" "}
-                Link:
-                https://www.movenpick.com/en/africa/ghana/accra/moevenpick-ambassador-hotel-accra.html{" "}
+                Link: shorturl.at/nEKN1{" "}
               </a>
             </h4>
             <p>

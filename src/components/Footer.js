@@ -5,7 +5,6 @@ function Footer() {
     <main>
       <div>
       
-        <h2> SMARTBOOKING </h2>
         <div className='myending'>
           <div className='my'>
             <h1> BOOK YOUR SITES HERE </h1>
@@ -13,13 +12,13 @@ function Footer() {
             <p>We are located in Wa, Upper West Region Ghana West Africa. </p>
             <h4>
               Working Hours:
-              <br /> <mark>Sunday</mark> - <mark>Saturday</mark> :24/7{" "}
+              <br /> :24/7{" "}
             </h4>
           </div>
           <div>
             <h1>Subscribe to our news letter</h1>
             <input type="email" placeholder="email address" required />
-            <button>Subscribe</button>
+            <button className='bitch'>Subscribe</button>
           </div>
         </div>
       </div>

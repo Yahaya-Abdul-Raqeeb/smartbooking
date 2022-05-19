@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import AddSites from "./components/AddSites";
 import Footer from "./components/Footer";
+import Login from "./screens/Login";
+import Register from "./screens/Register";
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/addsite" element={<AddSites />} />
+      <Route path="/" element={<Login />} />
+      <Route path="/Register" element={<Register />} />
+      <Route path="/home" element={<Home />} />
+        <Route path="/AddSites" element={<AddSites/>}/>
       </Routes>
       <Footer />
     </>
