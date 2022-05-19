@@ -72,7 +72,7 @@ form{
 input{
   height: 4ch;
   width: 30vh;
-  border-radius: 1vh;
+  border-radius: 1px;
   margin: 10px;
 display: grid;
 }
@@ -90,4 +90,8 @@ bitch{
   background-color: gray;
   padding-left: 80vh;
   padding-top: 20vh;
+}a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
 }

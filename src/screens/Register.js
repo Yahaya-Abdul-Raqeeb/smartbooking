@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
@@ -18,7 +18,9 @@ function Register() {
         <label>Confirm</label>
         <input placeholder="confirm password" />
 
-        <button>Register</button>
+        <button>
+          <Link to="/home">Register</Link>
+        </button>
         <div>
           I already have an account
           <Link to="/" className="nav-link">
