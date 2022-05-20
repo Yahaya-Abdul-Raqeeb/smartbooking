@@ -13,10 +13,10 @@ function Register() {
         <input placeholder="email" />
 
         <label>Password</label>
-        <input placeholder="enter password" />
+        <input type="password" placeholder="enter password" />
 
         <label>Confirm</label>
-        <input placeholder="confirm password" />
+        <input type="password" placeholder="confirm password" />
 
         <button>
           <Link to="/home">Register</Link>
