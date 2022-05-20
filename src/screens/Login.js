@@ -11,7 +11,7 @@ function Login() {
           <input placeholder="email" />
 
           <label>Password</label>
-          <input placeholder="password" />
+          <input type="password" placeholder="password" />
           <button>
             <Link to="/home">Login</Link>
           </button>
