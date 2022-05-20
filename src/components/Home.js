@@ -113,7 +113,7 @@ function Home() {
               {" "}
               <a href="https://www.the2mexpress.com/">
                 {" "}
-                Link:https://www.the2mexpress.com/{" "}
+                Link:https://www{" "}
               </a>
             </h4>
             <p>
