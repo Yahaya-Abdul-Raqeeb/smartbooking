@@ -1,12 +1,13 @@
 import React from 'react'
 import image from "../images.jpeg"
-import plane from "../plane.jpg"
+import kotoka from "../kotoka.jpg"
 import hills from "../hills.jpg"
 import movin from "../movin.jpg"
 import oa from "../oa.jpg"
 import stc from "../stc.jpg"
 import empire from "../empire.jpg"
-import {AuthContext} from "../context/auth.Context"
+import { AuthContext } from "../context/auth.Context"
+import nway from "../nway.jpg"
 
 function Home() {
   return (
@@ -34,16 +35,16 @@ function Home() {
           </div>
         </div>
         <div className="card">
-          <img src={plane} alt="no plane" />
+          <img src={kotoka} alt="no plane" />
           <div className="textGroup">
-            <h1> V.I.P </h1>
+            <h1>Kotoka International Airport </h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://www.travelocity.com/lp/airports/acc/kotoka-intl-airport">
                 {" "}
                 Link: https://stcticketing.gov.gh/{" "}
               </a>
@@ -103,16 +104,16 @@ function Home() {
         <div className="card">
           <img src={image} alt="no coaches" />
           <div className="textGroup">
-            <h1>Mostodiq Coaches </h1>
+            <h1>2M Express </h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://www.the2mexpress.com/">
                 {" "}
-                Link: https://stcticketing.gov.gh/{" "}
+                Link:https://www.the2mexpress.com/{" "}
               </a>
             </h4>
             <p>
@@ -145,18 +146,18 @@ function Home() {
         </div>
 
         <div className="card">
-          <img src={stc} alt="no buses" />
+          <img src={nway} alt="no image" />
           <div className="textGroup">
-            <h1>InterCity STC </h1>
+            <h1>NorthWay Commence HUB </h1>
             <h4>
               {" "}
               <a href="0520847899"> Contact: 0520847899 </a>
             </h4>
             <h4>
               {" "}
-              <a href="https://stcticketing.gov.gh/">
+              <a href="https://northwayhub.com/">
                 {" "}
-                Link: https://stcticketing.gov.gh/{" "}
+                Link: https://northwayhub.com/{" "}
               </a>
             </h4>
             <p>

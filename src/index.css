@@ -80,7 +80,8 @@ button {
   width: 10ch;
   height: 4ch;
 border-radius: 1vh;
-box-sizing: content-box;  
+box-sizing: content-box;
+color: aqua;  
 }
 bitch{
   padding-left: 10ch;
